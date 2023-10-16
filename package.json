@@ -1,0 +1,15 @@
+{
+  "name": "biome-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "format":"npx @biomejs/biome format ./server.js --write",
+    "lint":"npx @biomejs/biome check ./server.js",
+    "dev":"node ./server.js"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.2.2"
+  }
+}
